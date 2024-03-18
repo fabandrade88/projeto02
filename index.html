@@ -11,22 +11,32 @@
   <link href="https://fonts.googleapis.com/css2?family=Archivo:ital@0;1&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" src="style.css">
+  
+ <link rel="stylesheet" href="style.css">
 
   <title>Formulario</title>
 </head>
-<body>
-  <!--
-    Get: receber e enviar recursos pela URL
-    Post: Enviar recursos
-  -->
+
+ <body>
+  <div class="page">
   <header>
    <h1>Crie e compartilhe 
     seu evento.</h1>
    <p>O primeiro passo, é preencher esse
     formulário de inscrição.</p>
   </header>
-  <form action="" method="get">
+  <form>
+
+    <fieldset>
+      <legend>Informações do Evento</legend>
+      <div class="input-wrapper">
+        <label for="event-title">Título do evento <span>(mínimo 8 caracteres)</span></label>
+        <input type="text" id="event-title">
+      </div>
+
+    </fieldset>
+
   </form>
+  </div>
 </body>
 </html>
