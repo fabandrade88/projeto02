@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body, input, button, select, textarea {
+body, input, select, textarea {
   font-family: 'Poppings', sans-serif;
 }
 
@@ -185,11 +185,25 @@ footer {
   flex-direction: column;
   padding: 40px 64px;
   margin-bottom: 100%;
+  border-top: 1px solid #D6D6D6;
+  border-radius: 0 0 8px 8px;
 
 
 }
 
 footer .button {
   height: 56px;
+  background: #04d361;
+  border-radius: 8px;
+  border: 0;
 
+  font-family: 'Archivo';
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+
+}
+
+footer .button:hover {
+  background: #08a04c;
 }
