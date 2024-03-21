@@ -64,7 +64,7 @@
     </div>
 
     </fieldset>
-    
+
     <fieldset>
       <div class="fieldset-wrapper">
         <legend>Privacidade</legend>
@@ -77,9 +77,9 @@
           <label for="event-password">Senha de acesso para os participantes<span>(mínimo 8 caracteres)</span></label>
           <input type="password" id="event-password">
         </div>
-        <div>
-          <input type="checkbox" /> <span>ee</span>
-        </div>
+        <div class="checkbox-wrapper">
+          <input type="checkbox" id="event-private"/>
+          <label for="event-private">Evento privado </label>
 
         </div>
     </fieldset>
@@ -107,8 +107,10 @@
       </div>
       </div>
     </fieldset>
-
   </form>
+     <footer>
+    <input class="button" type="submit" value="Salvar evento">
+     </footer>
   </div>
 </body>
 </html>
