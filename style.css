@@ -208,6 +208,6 @@ footer .button:hover {
   background: #08a04c;
 }
 
-inpur:invalid {
+input:invalid {
   border: 1px solid #FF1010;
 }
